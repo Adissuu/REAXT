@@ -1,0 +1,16 @@
+@layer reset, base, tokens, recipes, utilities;
+
+
+.app-cursor {
+    z-index: 1000;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background-color: #e8e8e8;
+    border: 1.5px solid #1a1918;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(0, 0, 0);
+    top: 0;
+    left: 0;
+}
